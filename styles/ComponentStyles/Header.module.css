@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ color: white;
+}
+.menu p{
+    color: #39b54a;
+    cursor: pointer;
+}
+.menu p:hover{
+    transition: 0.5s;
+    color: white;
+}

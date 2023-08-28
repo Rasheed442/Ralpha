@@ -1,0 +1,40 @@
+.close{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+}
+.close p{
+    color: #39b54a;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.top{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #0C0C0C;
+    padding: 30px 30px 30px 30px;
+    height: 100%;
+}
+.navlink{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navlink p{
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    color: gray;
+}
+.socials{
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    color: gray;
+}

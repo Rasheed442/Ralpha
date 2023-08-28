@@ -1,0 +1,48 @@
+.container{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 260px;
+}
+.container p{
+    color: #39b54a;
+    font-weight: 500;
+    font-size: 20px;
+}
+.container h2{
+    color: white;
+    font-size: 55px;
+}
+.line{
+    background-color: gray;
+    height: 3px;
+    width: 50%;
+    border-radius: 50%;
+}
+.imagecontainer{
+    position: relative;
+}
+.images{
+    position: absolute;
+    left: -530px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+}
+.images img{
+    width: 570px;
+    height: 400px;
+    transition: 0.5s;
+}
+.images img:hover{
+    border-radius: 50px;
+    transform: scale(1.1);
+}
+
+
+
+

@@ -1,0 +1,67 @@
+.up{
+    background-color: rgb(126, 239, 126);
+    width: 100%;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 40px;
+}
+.container span{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "montserrat-bold",
+        sans-serif;
+
+}
+.container h2{
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+}
+.container p{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 45px;
+}
+.main{
+    display: flex;
+    gap: 80px;
+}
+.line{
+    background-color: gainsboro;
+    width: 50%;
+    height: 5px;
+    border-radius: 50%;
+}
+.reach h3{
+ color: white;    
+ font-size: 75px;
+}
+.line2{
+        background-color: gainsboro;
+     width: 2px;
+}
+.img1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 430px;
+        height: 270px;}
+.img2{
+    position: absolute;
+    right: 0;
+    top: 0;
+        width: 430px;
+        height: 270px;
+}
+.img1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
